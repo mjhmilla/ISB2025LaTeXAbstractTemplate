@@ -1,0 +1,204 @@
+\documentclass[10pt,twocolumn,a4paper]{article}
+
+%DO NOT MODIFY
+% To get the correct page layout
+%
+\usepackage[
+    left=1.5cm,
+    right=1.5cm,
+    top=2.0cm,
+    bottom=2.0cm,
+    columnsep=24.59pt]{geometry}
+
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{stfloats}
+\usepackage[hidelinks]{hyperref}
+\usepackage[usenames,dvipsnames,table]{xcolor}
+\usepackage{setspace}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lipsum}
+\usepackage[none]{hyphenat}
+\usepackage{caption}
+\usepackage{titlesec}
+
+%DO NOT MODIFY
+% To make the section titles in 10 point bold font with 12 point linespace (the default)
+%
+\titleformat{\section}
+  {\normalfont\fontsize{10}{12}\bfseries}{\thesection}{1em}{}
+
+%DO NOT MODIFY
+% To reduce the whitespace around each section title
+%
+\titlespacing*{\section}
+{0pt}{10pt}{5pt}
+
+
+%DO NOT MODIFY
+% To get the the correct formatting for the title and author block
+%
+\usepackage{authblk}
+\setlength{\affilsep}{0em}
+\makeatletter
+\def\@maketitle{%
+  \newpage
+  \begin{center}%
+  \let \footnote \thanks
+    {\vspace{-8.628mm}\@title\par\vspace{0.592mm}}%
+    { \begin{tabular}[t]{c}%
+        \@author
+      \end{tabular}}%
+  \end{center}
+  }
+\makeatother
+
+%
+% Enter the title and authorship information here
+% 
+\title{\textbf{Title} }
+\date{}
+\author[1,2]{\normalsize \textbf{Corresponding Author }}
+\author[1]{\normalsize Author B}
+\author[1]{\normalsize Author C}
+\author[1]{\normalsize Author D}
+\author[1]{\normalsize Author E}
+\author[2]{\normalsize Author F}
+\affil[1]{\normalsize Institute A, University A, City A, State A, Country A}
+\affil[2]{\normalsize Institute A, University B, City B, State B, Country B}
+\affil{ \normalsize Email: \href{corresponding.author@email-address.com}{\textcolor{blue}{corresponding.author@email-address.com}}\vspace{2.104mm}}
+
+%DO NOT MODIFY
+% To remove the spacing between bib items
+%
+\let\oldthebibliography\thebibliography
+\let\endoldthebibliography\endthebibliography
+\renewenvironment{thebibliography}[1]{
+  \begin{oldthebibliography}{#1}
+    \setlength{\itemsep}{0em}
+    \setlength{\parskip}{0em}
+}
+{
+  \end{oldthebibliography}
+}
+
+
+
+
+%DO NOT MODIFY
+% To match the formatting of the pdf template
+%
+\setlength{\textfloatsep}{3pt}
+\setlength{\abovecaptionskip}{10pt} 
+\setlength{\belowcaptionskip}{4pt} 
+\setstretch{0.961376481}
+
+
+
+\begin{document}
+
+
+\maketitle
+
+
+%
+% To suppress the page number
+%
+\thispagestyle{empty}
+
+%\the\columnwidth
+
+
+\section*{Summary}
+
+A summary (150 words maximum, plain text) should be
+included as the first section. The text of the summary should also be copied and pasted separately into the dedicated field within the online abstract submission system at the time of abstract submission. This summary will appear in the on-line
+program.
+
+\section*{Introduction}
+
+This document serves as an abstract template and contains information about the abstract submission process. All abstracts must be submitted electronically via the official website of ISB2025, by the deadline indicated. The abstract should be prepared using this template and submitted as a PDF file of $\le$ 5 MB. The congress organizers reserve the right to reject abstracts that do not adhere to this template.
+
+
+
+\begin{table*}[bp]
+\centering
+\captionsetup{font=small, labelfont=bf}
+\caption{Interesting data from well-executed experiments. The data have been arranged in an interesting and clear manner.}
+\small
+\begin{tabular}{| l | c | c | c | c | c | c | c  | c | c |}
+\hline
+Data & 234 & 243 & 210 & 2323 & 443 & 3432 & 234 & 3224 & 2423 \\
+\hline
+Other & 234 & 234 & 233 & 2323 & 3243 & 4342 & 4342 & 2343 & 432 \\
+\hline
+\end{tabular}
+\end{table*}
+
+
+
+\section*{Methods}
+
+The abstract is limited to one A4 size page (210 × 297 mm 8.27 in × 11.69 in), with two columns of text. The top margin should be 20 mm, while left, right and bottom margins should be 15 mm. The column width should be 86 mm. All text should be in font Times New Roman or Times, size 10 pt, except for the figure/table captions, which should be in size 9
+pt. The title (boldface), authors, and author affiliations should be centered across the top of the page. Use numerical superscripts to distinguish authors who are from different institutions. An email address of the corresponding author must be included. The \textbf{presenting author} should be in bold.
+The text within each column should be right- and left-justified, without paragraph indentations. The body of the manuscript should be divided into sections such as Introduction, Methods, Results and Discussion, Conclusions (all words capitalized and bold). Spacing (already set in this template): single-spaced, 5 pt for text, 10 pt before and 5
+pt after for the section headers.
+
+
+
+
+\section*{Results and Discussion}
+
+
+\begin{figure}
+\includegraphics[width=\columnwidth]{example-image-a}
+\captionsetup{font=small, labelfont=bf}
+\caption{Expected abstracts for ISB2025 in January 2025.} 
+\label{fig:example}
+\end{figure}
+
+
+A maximum of two items, figures and/or tables are recommended within the document. The figures or tables (if included) should be placed immediately after a paragraph and should be referenced parenthetically in the text (Figure 1). Captions should be placed below each figure and above each table. Tables may extend across two columns when needed, in which case they must be placed at the bottom of the page (Table 1). In Microsoft Word, use “Layout → Columns” to control which parts of the text are in single column format. Reference citations within the text are to be made with numbers in square brackets \cite{BC,PQ}. References are to be formatted as illustrated below. Place the journal or book title in Italics, with volume numbers in \textbf{bold} \cite{BCDE}.
+
+\section*{Conclusions}
+
+If an incomplete submission is received, it may be withheld from acceptance until the authors supply all required components.
+
+\section*{Acknowledgments}
+Acknowledgments are optional and should specify research funding and resources including organization name and reference numbers (if applicable).
+
+
+
+
+
+\begin{thebibliography}{10}
+\bibitem{BC} 
+Author BC et al. 
+\newblock (YEAR). 
+\newblock \textit{Abbrev. Journal}, \textbf{5}: 34-36.
+
+\bibitem{PQ} 
+Someauthor PQ. (YEAR) 
+\newblock \textit{Some Book Title}; Publisher.
+
+\bibitem{BCDE} 
+Author BC and Otherauthor DE (YEAR). 
+\newblock \textit{Journal}, \textbf{25}: 374-386.
+\end{thebibliography}
+%\flushleft text width: \the\textwidth\\
+%column sep: \the\columnsep\\
+%column width: \the\columnwidth
+
+
+
+
+
+
+%\lipsum
+
+
+
+\end{document}
